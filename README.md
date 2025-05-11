@@ -19,7 +19,7 @@ Each script generates its own CSV output and records its total execution time.
 ---
 
 ## ⚙️ Project Structure
-
+```
 pso_project/
 │
 ├── src/
@@ -44,7 +44,7 @@ pso_project/
 │
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## 📦 Installation
