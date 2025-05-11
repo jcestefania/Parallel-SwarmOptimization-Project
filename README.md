@@ -63,21 +63,21 @@ pip install -r requirements.txt
 
 The notebook notebook.ipynb includes:
 
-Execution of all algorithm variants from Jupyter.
+- Execution of all algorithm variants from Jupyter.
 
-A visual comparison of execution times.
+- A visual comparison of execution times.
 
-Calculation of Speedup for each version relative to the sequential baseline.
+- Calculation of Speedup for each version relative to the sequential baseline.
 
-A brief discussion on parallelization decisions, the GIL, and the impact of using different strategies in CPU-bound scenarios.
+- A brief discussion on parallelization decisions, the GIL, and the impact of using different strategies in CPU-bound scenarios.
 
 ---
 
 ## 📝 Notes
 
-Execution times may vary slightly depending on the system load.
+- Execution times may vary slightly depending on the system load.
 
-In this project, the most efficient implementation was the Multi + Asyncio version, which combines multiprocessing with asynchronous task execution.
+- In this project, the most efficient implementation was the Multi + Asyncio version, which combines multiprocessing with asynchronous task execution.
 
 ---
 
@@ -102,6 +102,6 @@ You can replace app.py with any of the following:
 
 Each script will run the optimization process, print progress to the console, and generate a CSV file with the results in the analysis folder.
 
-Note: Running all combinations may take a few minutes depending on your system.
+- Note: Running all combinations may take a few minutes depending on your system.
 
 ---
