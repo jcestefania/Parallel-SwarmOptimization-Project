@@ -1,0 +1,16 @@
+# Python cache and bytecode files
+__pycache__/
+*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+
+# OS-generated hidden files
+.DS_Store
+Thumbs.db
