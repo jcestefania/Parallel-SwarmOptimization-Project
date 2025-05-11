@@ -75,9 +75,33 @@ A brief discussion on parallelization decisions, the GIL, and the impact of usin
 
 ## 📝 Notes
 
-The PSO algorithm is adapted from the pyswarm library.
-
 Execution times may vary slightly depending on the system load.
 
 In this project, the most efficient implementation was the Multi + Asyncio version, which combines multiprocessing with asynchronous task execution.
 
+---
+
+## ▶️ How to Run
+
+To run any of the PSO implementations manually, open a terminal and navigate to the `src` directory. Then, execute the desired script using Python. For example:
+
+```bash
+cd src
+python app.py
+```
+
+You can replace app.py with any of the following:
+
+app_threading.py
+
+app_multiprocessing.py
+
+app_asyncio.py
+
+app_multi_asyncio.py
+
+Each script will run the optimization process, print progress to the console, and generate a CSV file with the results in the analysis folder.
+
+Note: Running all combinations may take a few minutes depending on your system.
+
+---
