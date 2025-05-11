@@ -92,13 +92,13 @@ python app.py
 
 You can replace app.py with any of the following:
 
-app_threading.py
+`app_threading.py`
 
-app_multiprocessing.py
+`app_multiprocessing.py`
 
-app_asyncio.py
+`app_asyncio.py`
 
-app_multi_asyncio.py
+`app_multi_asyncio.py`
 
 Each script will run the optimization process, print progress to the console, and generate a CSV file with the results in the analysis folder.
 
